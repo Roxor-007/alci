@@ -26,7 +26,7 @@
 #tput setaf 8 = light blue
 ##################################################################################################################
 
-#iso=alci-iso-hardened
+iso=alci-iso-zen
 
 echo
 tput setaf 3

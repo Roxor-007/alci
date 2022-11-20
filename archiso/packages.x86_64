@@ -141,11 +141,11 @@ alci-calamares
 #alci-calamares-config
 #alci-calamares-config-btrfs
 #alci-calamares-config-dev
-alci-calamares-config-hardened
+#alci-calamares-config-hardened
 #alci-calamares-config-lts
 #alci-calamares-config-pure
 #alci-calamares-config-xanmod-edge
-#alci-calamares-config-zen
+alci-calamares-config-zen
 xterm
 
 #######################################################
@@ -190,9 +190,10 @@ neofetch
 #xf86-video-amdgpu
 #xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 
 
 
@@ -203,8 +204,8 @@ neofetch
 
 ##### sddm display manager
 
-#sddm
-#alci-sddm-plasma-archpaint
+sddm
+alci-sddm-plasma-archpaint
 
 ##### gdm display manager
 
@@ -218,7 +219,7 @@ base-devel
 
 ##### want to have linux-headers
 
-#linux-headers
+linux-zen-headers
 
 
 
@@ -232,16 +233,16 @@ neofetch
 
 ##### want to add/use the ArcoLinux repos
 
-#arcolinux-mirrorlist-git
-#arcolinux-keyring
+arcolinux-mirrorlist-git
+arcolinux-keyring
 
 #test
 #arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
 #xcursor-sweet
@@ -266,8 +267,8 @@ neofetch
 #grub-btrfs
 #timeshift-autosnap
 
-linux-hardened
-linux-hardened-headers
+linux-zen
+linux-zen-headers
 
 plasma-meta
 dolphin
